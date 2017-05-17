@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	font: 12px/14px Arial,sans-serif;
+	color: #000;
+	background: #e0d7d7;
+}
+#header {
+	padding: 37px 37px 34px;
+	background: #2ca009;
+}
+#logo {
+    margin: 0 auto;
+    display: block;
+	width: 106px;
+	height: 79px;
+	
+    
+}
+#logo img {
+	width: 100%;
+	height: 100%;
+}
+#main {
+	overflow: hidden;
+}
+.sidebar {
+	background: #e0d7d7;
+	padding: 33px 10px 33px 22px;
+	
+    width: 100%;
+	font-size: 15px;
+}
+.sidebar li {
+	margin-bottom: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.sidebar li a{
+	color: #001cc4;
+	text-decoration: none;
+}
+
+.sidebar li a.active{
+	text-decoration: underline;
+
+} 
+.container {
+	float: left;
+	padding: 22px 10px 0 50px;
+	width: 100%;
+	background: white;
+}
+.container h1 {
+	font-size: 24px;
+	margin-bottom: 35px;
+	color: #999;
+}
+.container p {
+	margin-bottom: 20px;
+}
+.container p a {
+	color: #000;
+}
+#footer {
+	padding:  25px 0 35px;
+	text-align: center;
+	background: #706f69 url("../img/footer-bg.png") 0 0 repeat-x;
+}
+#footer li {
+	display: inline-block;
+	margin-right: 10px;
+}
+#footer li a{
+	color: #000;
+	text-decoration: none;
+}
+
+#footer li a.active{
+	text-decoration: underline;
+}
+
+@media (min-width:700px){
+    #wrapper{
+        width: 700px;
+    }
+}
+@media (min-width:1024px){
+    #logo{
+        margin: 0;
+    }
+    
+    .sidebar {
+        width: 173px;
+	    float: left;
+    }
+    
+    .sidebar li {
+	margin-bottom: 15px;
+    display: block;
+    margin-right: 0;
+    }
+    
+    .container{
+        width: 527px;
+    }
+    
+    
+}
